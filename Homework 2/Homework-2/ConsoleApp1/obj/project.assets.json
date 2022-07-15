@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\a4.zhukovsky\\source\\repos\\TMS-Homeworks\\Homework 2\\Homework-2\\ConsoleApp1\\ConsoleApp1.csproj",
-      "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Users\\a4.zhukovsky\\source\\repos\\TMS-Homeworks\\Homework 2\\Homework-2\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\a4.zhukovsky\\source\\repos\\TMS-Homeworks\\Homework 2\\Homework-2\\ConsoleApp1\\HomeWork-2.csproj",
+      "projectName": "HomeWork-2",
+      "projectPath": "C:\\Users\\a4.zhukovsky\\source\\repos\\TMS-Homeworks\\Homework 2\\Homework-2\\ConsoleApp1\\HomeWork-2.csproj",
       "packagesPath": "C:\\Users\\a4.zhukovsky\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\a4.zhukovsky\\source\\repos\\TMS-Homeworks\\Homework 2\\Homework-2\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
