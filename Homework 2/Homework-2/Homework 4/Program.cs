@@ -14,7 +14,6 @@ ReverseArrayByStack();
 void ReverseArrayByStack()
 {
     int[] randomArray = new int[5];
-    var element = new Random(10);
     for (int i = 0; i < randomArray.Length; i++)
     {
         randomArray[i] = i;
