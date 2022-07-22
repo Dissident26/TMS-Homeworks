@@ -86,10 +86,10 @@ OperationType GetOperationType(string operation)
 }
 enum OperationType
 {
-    Add = '+',
-    Minus = '-',
-    Multiply = '*',
-    Divide = '/',
-    DivideWithRemains = '%'
+    Add,
+    Minus,
+    Multiply,
+    Divide,
+    DivideWithRemains
 }
 
