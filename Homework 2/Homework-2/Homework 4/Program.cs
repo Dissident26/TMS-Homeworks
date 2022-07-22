@@ -1,6 +1,4 @@
-﻿using System.Linq;
-
-// #1 
+﻿// #1 
 int[] array = GetFieldArray();
 // #1.4 Вычислить сумму элементов с нечетными номерами(индексами) и вывести эту сумму на экран
 int summOfAllOdds = GetAllOddNumbersSumm(array);
@@ -35,7 +33,7 @@ int GetAllOddNumbersSumm(int[] array)
     int summ = 0;
     for (int i = 0; i < array.Length; i++)
     {
-        if (i != 0 && i % 2 != 0)
+        if (i % 2 != 0)
         {
             summ += array[i];
         }
@@ -51,7 +49,7 @@ int[] GetFieldArray()
     for (int i = 0; i < array.Length; i++)
     {
         Console.WriteLine("Задайте значение элемента массива {0}: ", i);
-        array[0] = ReadIntFromConsole();
+        array[i] = ReadIntFromConsole();
     }
     return array;
 }
