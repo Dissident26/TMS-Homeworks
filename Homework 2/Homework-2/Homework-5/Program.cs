@@ -10,8 +10,6 @@ Menu(studentsDictionary);
 
 void Menu(Dictionary<string, int> dictionary)
 {
- 
-
     MenuItem? consoleInput = null;
 
     while (consoleInput != MenuItem.End)
@@ -26,7 +24,7 @@ void Menu(Dictionary<string, int> dictionary)
         6) Вывести фамилии учеников, которые имеют самую высокую оценку среди одноклассников.
         7) Вывести фамилии учеников, которые имеют оценку большую или равную 8.
         8) Вывести фамилии учеников, которые имеют оценку меньшую или равную 4.
-        9) Закончить программу.");
+        9) Закончить раброту программы.");
 
         consoleInput = (MenuItem)ReadIntFromConsole();
 
