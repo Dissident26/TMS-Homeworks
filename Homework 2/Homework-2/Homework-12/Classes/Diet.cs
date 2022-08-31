@@ -1,9 +1,12 @@
-﻿namespace Homework_12.Classes
+﻿using Newtonsoft.Json;
+
+namespace Homework_12.Classes
 {
     public class Diet
     {
         public string Name { get; set; }
         public string Author { get; set; }
+        [JsonIgnore]
         public string Code { get; set; }
         public List<Ingridient> Ingridients { get; set; }
 

@@ -1,9 +1,12 @@
-﻿namespace Homework_12.Classes
+﻿using Newtonsoft.Json;
+
+namespace Homework_12.Classes
 {
     public class Ingridient
     {
         public string Name { get; set; }
         public double Price { get; set; }
+        [JsonProperty("Energy")]
         public double EnergyCost { get; set; }
         public string Manufacturer { get; set; }
 
